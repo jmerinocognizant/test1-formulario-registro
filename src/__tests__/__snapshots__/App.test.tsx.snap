@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <Appp /> debe de hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="container login-container rounded mt-5 justify-content-md-center"
+  >
+    <h2
+      class="d-flex justify-content-center text-secondary"
+    >
+      Registration
+    </h2>
+    <hr />
+    <div
+      class="input-group mt-2"
+    >
+      <span
+        class="input-group-text text-white bg-primary"
+      >
+        <i
+          class="bi bi-envelope-fill fs-5"
+        />
+      </span>
+      <input
+        aria-label="email"
+        class="form-control"
+        id="email"
+        name="email"
+        placeholder="Email"
+        type="email"
+        value=""
+      />
+    </div>
+    <hr />
+    <div
+      class="input-group mt-2"
+    >
+      <span
+        class="input-group-text text-white bg-primary"
+      >
+        <i
+          class="bi bi-person-fill fs-5"
+        />
+      </span>
+      <input
+        aria-label="name"
+        class="form-control"
+        id="name"
+        name="name"
+        placeholder="Name"
+        type="text"
+        value=""
+      />
+    </div>
+    <hr />
+    <div
+      class="input-group mt-2"
+    >
+      <span
+        class="input-group-text text-white bg-primary"
+      >
+        <i
+          class="bi bi-person-fill fs-5"
+        />
+      </span>
+      <input
+        class="form-control"
+        data-testid="password"
+        id="password"
+        name="password"
+        placeholder="Password"
+        type="password"
+        value=""
+      />
+    </div>
+    <hr />
+    <div
+      class="form-check"
+    >
+      <input
+        aria-label="check-privacy-policy"
+        class="form-check-input border-primary rounded-0"
+        id="privacyPolicy"
+        name="privacyPolicy"
+        type="checkbox"
+        value="privacyPolicy"
+      />
+      <label
+        class="form-check-label text-secondary"
+        for="checkbox-privacy"
+      >
+        I Agree to Privacy Policy
+      </label>
+    </div>
+    <hr />
+    <button
+      aria-label="btn-submit"
+      class="btn btn-primary w-100"
+      disabled=""
+      type="button"
+    >
+      Submit
+    </button>
+  </div>
+</div>
+`;

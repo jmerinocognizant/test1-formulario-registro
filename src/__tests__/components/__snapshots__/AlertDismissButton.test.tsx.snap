@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AlertDismissButton /> debe de hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="alert alert-success alert-dismissible mt-2"
+    role="alert"
+  >
+    Submit successful
+    <button
+      aria-label="btn-close"
+      class="btn-close"
+      data-dismiss="alert"
+      type="button"
+    />
+  </div>
+</div>
+`;
